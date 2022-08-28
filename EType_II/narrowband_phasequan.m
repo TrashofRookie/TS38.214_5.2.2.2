@@ -1,5 +1,4 @@
 function [C] = narrowband_phasequan(W, N_PSK)
-W = W(:);
 W_phase = angle(W);
 % W_phase_angle = W_phase*180/pi;
 % W_phase = exp(1i .* W_phase);
